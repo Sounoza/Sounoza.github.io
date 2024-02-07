@@ -1,64 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High School Student's Blog</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9S1VRvRz6puN9A9lJ9RQNR1rFz2k6q8qI+K8SU6R1jI1z2jwIu9I7Fw4MXSf+W69" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: #fff;
-            color: #333;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        .academic-style {
-            font-style: italic;
-        }
-        .main-color {
-            color: #007bff;
-        }
-    </style>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Student's Blog</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-
-    <div class="container mt-5">
-        <section id="home">
-            <h2 class="main-color">Welcome to My Blog</h2>
-            <p class="academic-style">This is a space where I share my journey through high school, the lessons I learn, and my thoughts on various subjects.</p>
-        </section>
-
-        <section id="about" class="mt-5">
-            <h2 class="main-color">About Me</h2>
-            <p>Hi, I'm a high school student passionate about literature, science, and extracurricular activities. This blog is my outlet for all the academic and personal growth experiences I encounter.</p>
-        </section>
-
-        <section id="contact" class="mt-5">
-            <h2 class="main-color">Contact</h2>
-            <p>Feel free to reach out to me via email at <a href="mailto:studentemail@example.com">studentemail@example.com</a>.</p>
-        </section>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Welcome to My Website</h1>
+        <p>This is a template for a simple website using Bootstrap.</p>
+      </div>
     </div>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjyIOiIO9xx6kS+zAC4v/rQcNThb3z+mcQvyS0t5v0hI6TghHWWYkN" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
