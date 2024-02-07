@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>涧之/Nous's Blog</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  </head>
-  <body>
+    <style>
+        body {
+            padding-top: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
+        .jumbotron {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 0.3rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,.04);
+        }
+        h1 {
+            color: #007bff;
+        }
+        p {
+            font-size: 18px;
+        }
+        .navbar-light .navbar-brand {
+            color: #007bff;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: #007bff;
+        }
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">涧之 / Nous</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="linguistics.html">OL</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="maths.html">Maths</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="random.html">Mindflow</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+            <div class="container">
+                <a class="navbar-brand" href="#">涧之 / Nous</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="linguistics.html">OL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="maths.html">Maths</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="random.html">Mindflow</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <div class="container">
-      <div class="jumbotron text-center">
-        <h1>Welcome to My Website</h1>
-        <p>This is a template for a simple website using Bootstrap.</p>
-      </div>
+        <div class="jumbotron">
+            <h1>Welcome to My Website</h1>
+            <p>This is a template for a simple website using Bootstrap. Explore the sections to learn more about me and my interests!</p>
+        </div>
     </div>
-  </body>
+</body>
 </html>
